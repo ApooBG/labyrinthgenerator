@@ -1,0 +1,15 @@
+I used these:
+- FPS Controller: https://assetstore.unity.com/packages/tools/input-management/mini-first-person-controller-174710
+- Brick Wall Image: https://www.google.com/search?q=brick+wall&sxsrf=APwXEdeRoGgFQ6wjtrk4es-r2i3wq_yWeQ:1684859406002&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiUpZCz7ov_AhVCMewKHTPmCjUQ_AUoAXoECAEQAw&biw=1652&bih=924&dpr=1.5 
+- UI frames and elements were downloaded as well a few months ago but I couldn't find the source
+- The Logo: https://www.google.com/search?q=labyrinth+logo&tbm=isch&ved=2ahUKEwiXiJmryYz_AhUSh_0HHemYCIMQ2-cCegQIABAA&oq=labyrinth+logo&gs_lcp=CgNpbWcQAzIHCAAQExCABDIHCAAQExCABDIHCAAQExCABDIHCAAQExCABDIHCAAQExCABDIICAAQBRAeEBMyCAgAEAUQHhATMggIABAFEB4QEzIICAAQBRAeEBMyCAgAEAUQHhATUABYiAFg8AFoAHAAeACAAUuIAb0BkgEBM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=aEltZJe0PJKO9u8P6bGimAg&bih=924&biw=1652#imgrc=Dqq0wORT9qCpmM&imgdii=jqY7CMFJ3-OqBM
+
+
+Retrospective:
+The labyrinth was one of the most interesting projects I have ever had. I love to be challenged logically with complicated algorithms, as I always find a solution and the feeling in the end is amazing. I could even say that is my passion. The more difficult part was the responsive UI, as it is my weakest spot, which is why it is a simple one as well, but it is a good choice in my opinion as the game is very simple, and it matches the feeling with it. I learned more about performance handling and main menus / pause menus implementation (since this was my first time doing a menu, I realize the code could be a lot better than what I have done). Talking about code, in the next few weeks I am going to practice C# patterns, as from now I will have more free time to implement and learn them. Also, I realize that the way I created the labyrinth is a bit more complicated than something else I thought of afterward. I could build the frame first and then go inside and build the rest of the cells, this way it would be even faster for the slower CPUs, as there would be way less if statements and conditions. I could do lots of more testing, bug fixing, code quality upgrades etc. but I think that I am satisfied with what I have done and most importantly, what I have learned from this. Regardless of the outcome of the assessment, thank you for this cool assignment :)
+
+
+
+
+P.S.
+I am aware that the cells have a bit of spacing from one another, and this could be seen in the game, but it is my decision to leave it like that even though it was done unintentionally. I like the aesthetic it gives to the game. Also, that you can't skip the start animation of the camera switch is also by choice, as it takes only a second, and it is one of the few features this labyrinth has.
